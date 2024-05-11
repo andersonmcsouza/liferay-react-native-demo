@@ -63,7 +63,7 @@ function LoginNavigator({navigation}) {
 		>
 			<Stack.Screen
 				component={LoginScreen}
-				name="Login"
+				name="Welcome"
 				options={{
 					headerTitle: 'Login',
 				}}
