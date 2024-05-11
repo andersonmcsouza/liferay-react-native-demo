@@ -37,7 +37,7 @@ function FormikRadio(props) {
 						checkedIcon={
 							<Ionicons
 								color={colors.primary}
-								name="ios-radio-button-on"
+								name="radio-button-on"
 								size={24}
 							/>
 						}
@@ -49,7 +49,7 @@ function FormikRadio(props) {
 						uncheckedIcon={
 							<Ionicons
 								color={colors.secondary}
-								name="ios-radio-button-off"
+								name="radio-button-off"
 								size={24}
 							/>
 						}

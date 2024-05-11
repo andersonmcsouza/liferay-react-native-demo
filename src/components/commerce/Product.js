@@ -77,7 +77,7 @@ const Product = ({route}) => {
 					checkedIcon={
 						<Ionicons
 							color={colors.primary}
-							name="ios-radio-button-on"
+							name="radio-button-on"
 							size={24}
 						/>
 					}
@@ -88,7 +88,7 @@ const Product = ({route}) => {
 					uncheckedIcon={
 						<Ionicons
 							color={colors.secondary}
-							name="ios-radio-button-off"
+							name="radio-button-off"
 							size={24}
 						/>
 					}

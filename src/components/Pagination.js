@@ -29,7 +29,7 @@ function Pagination(props) {
 				icon={
 					<Ionicons
 						color={page > 1 ? greys[7] : greys[3]}
-						name="ios-arrow-back"
+						name="arrow-back"
 						size={20}
 					/>
 				}
@@ -45,7 +45,7 @@ function Pagination(props) {
 				icon={
 					<Ionicons
 						color={page < lastPage ? greys[7] : greys[3]}
-						name="ios-arrow-forward"
+						name="arrow-forward"
 						size={20}
 					/>
 				}

@@ -54,7 +54,7 @@ function CustomDrawerContent(props) {
 						icon={() => (
 							<Ionicons
 								color={colors.white}
-								name="ios-person"
+								name="person"
 								size={24}
 							/>
 						)}

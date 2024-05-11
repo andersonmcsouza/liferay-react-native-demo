@@ -10,7 +10,7 @@ function ToggleDrawerButton({navigation}) {
 		<Button
 			buttonStyle={gStyles.px2}
 			color="#fff"
-			icon={<Ionicons name="ios-menu" size={32} />}
+			icon={<Ionicons name="menu" size={32} />}
 			onPress={() => navigation.toggleDrawer()}
 			type="clear"
 		/>
