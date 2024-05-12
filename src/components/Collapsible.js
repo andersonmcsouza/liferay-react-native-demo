@@ -17,7 +17,7 @@ function Collapsible(props) {
 				{header}
 
 				<Ionicons
-					name={collapsed ? 'arrowdown' : 'arrowup'}
+					name={collapsed ? 'arrow-down' : 'arrow-up'}
 					size={20}
 				/>
 			</TouchableOpacity>
