@@ -106,7 +106,7 @@ function ContentSetsNavigation({navigation}) {
 		>
 			<Stack.Screen
 				component={ContentSets}
-				name="ContentSets"
+				name="ContentSetsScreen"
 				options={{title: 'Collections'}}
 			/>
 			<Stack.Screen

@@ -113,7 +113,7 @@ function BlogsNavigator({navigation}) {
 		>
 			<Stack.Screen
 				component={Blogs}
-				name="Blogs"
+				name="BlogsScreen"
 				options={{
 					headerTitle: 'Blogs',
 				}}

@@ -121,7 +121,7 @@ function FormsNavigator({navigation}) {
 		>
 			<Stack.Screen
 				component={FormsScreen}
-				name="Forms"
+				name="FormsScreen"
 				options={{
 					headerTitle: 'Forms',
 				}}

@@ -116,7 +116,7 @@ function DocumentsNavigation({navigation}) {
 		>
 			<Stack.Screen
 				component={Documents}
-				name="Documents"
+				name="DocumentsScreen"
 				options={{title: 'Documents'}}
 			/>
 			<Stack.Screen

@@ -30,7 +30,9 @@ const Sites = () => {
 		() => {
 			return request(
 				`/o/headless-admin-user/v1.0/my-user-account/sites?page=${page}&pageSize=20`
-			);
+			).catch(() => {
+				setInfoMessage(error);
+			});
 		}
 	);
 
@@ -183,7 +185,7 @@ function SitesNavigation({navigation}) {
 		>
 			<Stack.Screen
 				component={Sites}
-				name="Sites"
+				name="SitesScreen"
 				options={{title: 'Sites'}}
 			/>
 		</Stack.Navigator>

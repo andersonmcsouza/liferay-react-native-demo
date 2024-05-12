@@ -61,7 +61,7 @@ function HomeNavigator({navigation}) {
 		>
 			<Stack.Screen
 				component={Home}
-				name="Home"
+				name="HomeScreen"
 				options={{
 					headerTitle: 'Welcome',
 				}}
