@@ -19,6 +19,13 @@
     "ios": {
       "supportsTablet": true
     },
+    "android": {
+      "package":"com.liferay.mobile.demo",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },    
     "extra": {
       "eas": {
         "projectId": "d39ba09d-53de-439e-ba27-3497e5419f7c"
