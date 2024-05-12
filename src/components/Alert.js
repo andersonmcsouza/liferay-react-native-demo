@@ -14,10 +14,10 @@ export const DISPLAY_TYPES = {
 };
 
 const ICON_DISPLAY_MAP = {
-	danger: 'error',
-	info: 'md-information-circle',
-	success: 'md-checkmark-circle',
-	warning: 'md-warning',
+	danger: 'dangerous',
+	info: 'information-circle',
+	success: 'check-circle',
+	warning: 'warning',
 };
 
 function Alert(props) {
